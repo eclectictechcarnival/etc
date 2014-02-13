@@ -1,0 +1,9 @@
+README
+
+bundle install
+
+to run in development
+
+jekyll serve
+
+Documetnation about jekyll: http://jekyllrb.com/docs/

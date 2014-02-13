@@ -1,0 +1,9 @@
+global:
+    english: english
+    spanish: castellano
+pages:
+    about: About
+    declaration: Declaration
+    call_for_participation: Call for participation
+    contact: Contact
+    register: Register 

@@ -1,8 +1,10 @@
-README
+This is the code for the website for Eclectic Tech Carnival 2014.
+
+To install the needed libraries (multilingual and jekyll)
 
 bundle install
 
-to run in development
+To run in development (your own machine)
 
 jekyll serve
 

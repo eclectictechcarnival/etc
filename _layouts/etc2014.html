@@ -17,8 +17,12 @@
 
         <div class="site">
           <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
+            <a class="extra" href="/about">{% t pages.about %}</a>
+            <a class="extra" href="/etc-2014">2014 ETC</a>
+            <a class="extra" href="/call-for-participation">{% t pages.call_for_participation %}</a>
+            <a class="extra" href="/calafou">Calafou</a>
+            <a class="extra" href="/register">{% t pages.register %}</a>
+            <a class="extra" href="/how-to-get-involved">{% t pages.how_to_get_involved %}</a>
           </div>
 
           {{ content }}

@@ -15,32 +15,19 @@
     </head>
     <body>
 
-        <div class="site">
+        <div class="header">
+            {% include header.html %}
+        </div>
 
-            <div class="header">
-                <a class="extra" href="/about">{% t pages.about %}</a>
-                <a class="extra" href="/etc-2014">2014 ETC</a>
-                <a class="extra" href="/call-for-participation">{% t pages.call_for_participation %}</a>
-                <a class="extra" href="/calafou">Calafou</a>
-                <a class="extra" href="/register">{% t pages.register %}</a>
-                <a class="extra" href="/how-to-get-involved">{% t pages.how_to_get_involved %}</a>
+        <div class="content">
+            <div class="sidebar"> 
+                {% include sidebar.html %}
             </div>
+            {{ content }}
+        </div>
 
-          {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                {% t pages.contact %}
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                where when what
-                </p>
-              </div>
-            </div>
-
+        <div class="footer">
+            {% include footer.html %}
         </div>
 
     </body>

@@ -31,6 +31,83 @@ a:visited { color: #a0a; }
 
 /*****************************************************************************/
 /*
+/* Container, Banner, Header, left Nav, right Nav, Content, Footer
+/*
+/*****************************************************************************/
+#container
+{
+width: 900px;
+margin: 30px auto;
+background-color: #fff;
+line-height: 130%;
+}
+
+#banner
+{
+padding: .5em;
+background-color: #fff;
+background-image: url('/banner_test.jpg');
+background-repeat: no-repeat;
+height: 90px;
+}
+#banner h1
+{
+padding: 0;
+margin: 0;
+}
+
+#header
+{
+padding: .5em;
+background-color: #FFF;
+border-bottom: 1px solid magenta;
+}
+
+#leftnav
+{
+float: left;
+width: 160px;
+margin: 0;
+padding: 1em;
+text-align: left;
+}
+
+#rightnav
+{
+float: right;
+width: 160px;
+margin: 0;
+padding: 1em;
+}
+
+#content
+{
+margin-left: 200px;
+border-left: 1px solid magenta;
+margin-right: 200px;
+border-right: 1px solid magenta;
+padding: 1em;
+max-width: 36em;
+}
+
+#footer
+{
+clear: both;
+margin: 0;
+padding: .5em;
+color: #333;
+background-color: #FFF;;
+}
+
+/*****************************************************************************/
+/*
+/* END - Container, Banner, Header, left Nav, right Nav, Content, Footer
+/*
+/*****************************************************************************/
+
+
+/*****************************************************************************/
+/*
 /* Home
 /*
 /*****************************************************************************/

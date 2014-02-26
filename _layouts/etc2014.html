@@ -14,21 +14,45 @@
 
     </head>
     <body>
+    <div id=container>
+	
+		
+			<div id="banner">
+			</div>
+			
+			<div id="header">
+				
+                {% include header.html %}
+			</div>
+				
+	</div>
+			
 
-        <div class="header">
-            {% include header.html %}
-        </div>
+	<div id="leftnav">
+				
+			<div class="leftnav">
+            {% include sidebar.html %}
+			</div>
+				
+	</div>
+			
+			
+	<div id="rightnav">
+	</div>			 
 
-        <div class="content">
-            <div class="sidebar"> 
-                {% include sidebar.html %}
-            </div>
-            {{ content }}
-        </div>
-
-        <div class="footer">
-            {% include footer.html %}
-        </div>
+		
+    <div class="site"> 
+			<div id="content">         
+          {{ content }}
+			</div>
+    </div>
+    
+    <div id="footer">
+    {% include footer.html %}</div>
+    </div>
+			 
+			 
+			 
 
     </body>
 </html>

@@ -22,10 +22,17 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
+h1 {
+    margin-bottom: 1em;
+    font-size: large;
+}
 p { margin: 1em 0; }
 
-a         { color: #00a; }
+a {
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
@@ -46,7 +53,7 @@ line-height: 130%;
 {
 padding: .5em;
 background-color: #fff;
-background-image: url('/banner_test.jpg');
+background-image: url('/images/banner_test.png');
 background-repeat: no-repeat;
 height: 90px;
 }
@@ -60,7 +67,7 @@ margin: 0;
 {
 padding: .5em;
 background-color: #FFF;
-border-bottom: 1px solid magenta;
+border-bottom: 1px solid green;
 }
 
 #leftnav
@@ -85,7 +92,7 @@ padding: 1em;
 margin-left: 200px;
 border-left: 1px solid magenta;
 margin-right: 200px;
-border-right: 1px solid magenta;
+border-right: 1px solid #8cbbff;
 padding: 1em;
 max-width: 36em;
 }
@@ -134,9 +141,9 @@ background-color: #FFF;;
 
 .site {
   font-size: 115%;
-  text-align: justify;
+  /*text-align: justify;
   width: 42em;
-  margin: 3em auto 2em;
+  margin: 3em auto 2em;*/
   line-height: 1.5em;
 }
 
@@ -154,10 +161,12 @@ background-color: #FFF;;
 
 .languages {
   width: 100%;
-  float: right;
+  /*float: right;*/
   text-align: right;
-  margin: 10px;
-  padding: 10px;
+  font-size: larger;
+  margin: 15px;
+  padding: 0px;
+  word-spacing: 10px;
 }
 
 .header a {
@@ -199,13 +208,14 @@ background-color: #FFF;;
 
 .sidebar {
   float: left;
-  width: 20%;
+  /*width: 20%;*/
 }
 
 .sidebar ul {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
+  line-height: 2em;
 }
 
 /*************** Content ***************/
@@ -215,13 +225,13 @@ background-color: #FFF;;
 }
 
 .announcement {
-  font-size: 32px;
+  font-size: large;
   margin: 40px;
   text-align: center;
 }
 
 .contact {
-  font-size: 24px;
+  font-size: large;
 }
 
 /*************** Footer ***************/

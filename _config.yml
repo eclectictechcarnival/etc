@@ -1,4 +1,4 @@
 name: Eclectic Tech Carnival
 markdown: redcarpet
 pygments: true
-languages: ["en", "sp", "ca", "fr", "pt"]
+languages: ["en", "sp", "ca", "fr", "pt", "it"]

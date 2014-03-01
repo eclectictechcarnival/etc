@@ -1,7 +1,6 @@
 global:
     english: english
     spanish: spanish
-    italian: italian
 pages:
     about: About
     declaration: Declaration
@@ -16,3 +15,4 @@ languages:
     sp: es
     fr: fr
     it: it
+    ca: ca

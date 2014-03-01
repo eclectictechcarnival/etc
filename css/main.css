@@ -70,6 +70,10 @@ background-color: #FFF;
 border-bottom: 1px solid green;
 }
 
+#header a.link {
+  text-decoration: none;
+}
+
 #leftnav
 {
 float: left;

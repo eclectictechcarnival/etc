@@ -1,27 +1,27 @@
 This is the code for the website for Eclectic Tech Carnival 2014.
 
-## Locally
+# Locally
 
 You need to install ruby and git. Then you clone the repo:
 
 > git clone git@github.com:eclectictechcarnival/etc.git
 
-# To install the needed libraries (multilingual and jekyll)
+## To install the needed libraries (multilingual and jekyll)
 
 `bundle install`
 
-# To run in development (your own machine)
+## To run in development (your own machine)
 
 `jekyll serve`
 
 
-## In 'production'
+# In 'production'
 
 There is a deploy script that build the static site in your local machine and then copy it to the server. 
 
 `sh deploy.sh`
 
-## About Jekyll
+# About Jekyll
 
 Documentation about jekyll: http://jekyllrb.com/docs/
 

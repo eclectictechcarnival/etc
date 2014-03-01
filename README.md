@@ -14,7 +14,6 @@ You need to install ruby and git. Then you clone the repo:
 
 `jekyll serve`
 
-
 # In 'production'
 
 There is a deploy script that build the static site in your local machine and then copy it to the server. 
@@ -44,3 +43,5 @@ Structure http://jekyllrb.com/docs/structure/
 
 
 About mutilingual   https://github.com/screeninteraction/jekyll-multiple-languages-plugin
+
+This is project from the [GenderChangers](http://www.genderchangers.org/) collective.

@@ -1,0 +1,18 @@
+global:
+    english: english
+    spanish: spanish
+    italian: italian
+pages:
+    about: About
+    declaration: Declaration
+    call_for_participation: Call for participation
+    contact: Contact
+    register: Register 
+    how_to_get_involved: How to Get Involved
+    title: Eclectic Tech Carnival
+languages:
+    pt: pt
+    en: en
+    sp: es
+    fr: fr
+    it: it

@@ -236,14 +236,14 @@ border-top: 1px solid #333;
 }
 
 .contact {
-  font-size: 115%;
+  font-size: normal;
   font-weight: bold;
 }
 
 /*************** Footer ***************/
 
 .footer {
-  font-size: 80%;
+  font-size: 100%;
   margin-top: 2em;
   overflow: hidden;
   height: 10%;

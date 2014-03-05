@@ -107,7 +107,8 @@ clear: both;
 margin: 0;
 padding: .5em;
 color: #333;
-background-color: #FFF;;
+background-color: #FFF;
+border-top: 1px solid magenta;
 }
 
 /*****************************************************************************/

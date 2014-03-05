@@ -106,7 +106,7 @@ max-width: 36em;
 clear: both;
 margin: 0;
 padding: .5em;
-color: #333;
+color: magenta;
 background-color: #FFF;
 border-top: 1px solid #333;
 }
@@ -236,7 +236,7 @@ border-top: 1px solid #333;
 }
 
 .contact {
-  font-size: larger;
+  font-size: 115%;
   font-weight: bold;
 }
 

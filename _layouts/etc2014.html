@@ -15,32 +15,27 @@
     </head>
     <body>
         <div id="container">
-    	   <div id="banner">
-    	   </div>
-
-        	<div id="header">
+			<div id="banner"><!-- logo --></div>
+        	<header class="header">
         	   <a href="/">{% include header.html %}</a>
-        	</div>
-    	
-            <div id="leftnav">
-        		<div class="sidebar">
-        	       {% include sidebar.html %}
-        		</div>
-        	</div>
+        	</header>
 
-        	<div id="rightnav">
-        	</div>			 
-        	
-            <div class="site"> 
-        		<div id="content">         
-        		{{ content }}
-        		</div>
-        	</div>
-        	
-            <div id="footer">
-        	   {% include footer.html %}</div>
-        	</div>
+			<aside class="sidebar" id="leftnav">
+				{% include sidebar.html %}
+			</aside>
+
+			<aside class="sidebar" id="rightnav">
+				{% include sidebar.html %}
+			</aside>
+
+			<div id="content">
+			{{ content }}
+			</div>
+
+            <footer class="footer">
+        	   {% include footer.html %}
+        	</footer>
         </div>
-			 
+
     </body>
 </html>

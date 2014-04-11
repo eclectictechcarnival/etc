@@ -3,6 +3,7 @@ global:
     spanish: castellano
 pages:
     about: About
+    manifesto: Manifesto
     declaration: Declaration
     call_for_participation: Call for participation
     contact: Contact

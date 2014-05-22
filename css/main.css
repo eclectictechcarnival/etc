@@ -20,11 +20,14 @@ h3, h4, h5, h6 {
 }
 
 h1  {
-	font-size: 200%;
+	font-size: 160%;
 	color: gray;
+	padding: 1em;
 }
 h2  {
-	font-size: 130%;
+	font-size: 120%;
+	font-style: bold;
+	padding: .5em;
 }
 
 p {

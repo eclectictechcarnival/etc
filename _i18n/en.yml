@@ -6,7 +6,7 @@ pages:
     declaration: Declaration
     call_for_participation: Call for participation
     contact: Contact
-    register: Register 
+    register: Register
     how_to_get_involved: How to Get Involved
     title: Eclectic Tech Carnival
     etc_2014: About 2014 ETC
@@ -17,3 +17,6 @@ languages:
     fr: fr
     it: it
     ca: ca
+about:
+  under_construction: "We are working on the website as we are organizing the conference, manifesto and call for participation."
+  etc_happening_in: "ETC is happening in 2014 at <a href='http://www.calafou.org'>Calafou</a> in Barcelona, Spain."

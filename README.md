@@ -41,7 +41,4 @@ Structure http://jekyllrb.com/docs/structure/
 ├── _site
 └── index.html
 
-
-About mutilingual   https://github.com/screeninteraction/jekyll-multiple-languages-plugin
-
 This is project from the [GenderChangers](http://www.genderchangers.org/) collective.

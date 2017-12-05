@@ -1,4 +1,6 @@
 name: Eclectic Tech Carnival
 markdown: redcarpet
-pygments: true
+highlighter: true
 languages: ["en", "sp", "ca", "fr", "pt", "it"]
+plugins:
+          - jekyll-multiple-languages-plugin

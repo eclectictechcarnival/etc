@@ -1,4 +1,7 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
 gem "jekyll"
-gem "jekyll-multiple-languages-plugin"
+
+group :jekyll_plugins do
+   gem 'jekyll-multiple-languages-plugin'
+end
